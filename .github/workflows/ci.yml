@@ -31,3 +31,10 @@ jobs:
             
             - name: Print The Test report
               run: npm run check
+
+    deploy:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Print Hello world
+              run: echo "hello World"
